@@ -47,7 +47,7 @@ Este proyecto evolucionó a partir del excelente código base de ltx0101/SlimBra
 Todo el mérito de la investigación original de las llaves de registro, la estructura de políticas empresariales de Brave y la lógica inicial en consola pertenece a su autor original. Esta versión "Pro" toma ese robusto motor de políticas y lo envuelve en una interfaz gráfica XAML interactiva, uniendo la potencia del script original con una experiencia visual moderna.
 
 Puedes ejecutarlo usando este codigo en powershell (o bajar el .ps1)
-```plaintext Invoke-RestMethod -Uri "https://raw.githubusercontent.com/DanserAlvis/Slim-Brave-Optimizer-Pro/refs/heads/main/SlimBraveOptimizerPro.ps1" | Invoke-Expression ```
+```powershell Invoke-RestMethod -Uri "https://raw.githubusercontent.com/DanserAlvis/Slim-Brave-Optimizer-Pro/refs/heads/main/SlimBraveOptimizerPro.ps1" | Invoke-Expression```
 
 ⚠️ Aviso Legal
 Este script modifica parámetros del registro de Windows (HKEY_LOCAL_MACHINE). Aunque las modificaciones están basadas en las políticas oficiales documentadas por Brave/Chromium, el uso de esta herramienta es bajo tu propio riesgo. Se recomienda revisar el código fuente antes de su ejecución.
